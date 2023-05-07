@@ -1,4 +1,4 @@
-package usecases;
+package entities;
 
 import lombok.Value;
 

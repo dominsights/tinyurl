@@ -1,7 +1,5 @@
 package entities;
 
-import usecases.ShortenedUrl;
-
 import java.util.Optional;
 
 public interface UrlRepository {

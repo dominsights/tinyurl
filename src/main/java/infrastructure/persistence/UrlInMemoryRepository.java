@@ -1,7 +1,7 @@
 package infrastructure.persistence;
 
 import entities.UrlRepository;
-import usecases.ShortenedUrl;
+import entities.ShortenedUrl;
 
 import java.util.HashMap;
 import java.util.Map;

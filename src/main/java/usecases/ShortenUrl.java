@@ -1,5 +1,7 @@
 package usecases;
 
+import entities.ShortenedUrl;
+import entities.Statistics;
 import entities.UrlRepository;
 import entities.UrlShortener;
 
