@@ -3,11 +3,14 @@ package usecases;
 import entities.UrlShortener;
 
 public class ShortenUrl {
-    public ShortenUrl(UrlShortener urlShortener) {
+    private final UrlShortener shortener;
 
+    public ShortenUrl(UrlShortener urlShortener) {
+        this.shortener = urlShortener;
     }
 
     public ShortenedUrl execute(String url) {
-        return null;
+        String shortened = shortener.shorten(url);
+        return new ShortenedUrl(shortened, new Statistics(1, 0));
     }
 }
